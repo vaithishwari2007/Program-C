@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float a;
+    int b, c, d;
+
+    // Input
+    scanf("%f", &a);         // float input
+    scanf("%d", &b);         // square root input
+    scanf("%d", &c);         // base
+    scanf("%d", &d);         // power
+
+    // Output
+    printf("%.0f\n", floor(a));     // Floor of a
+    printf("%.0f\n", ceil(a));      // Ceil of a
+    printf("%.0f\n", sqrt(b));      // Square root of b
+    printf("%.0f\n", pow(c, d));    // c raised to the power d
+
+    return 0;
+}
